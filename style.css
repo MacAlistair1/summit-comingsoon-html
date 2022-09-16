@@ -1,0 +1,82 @@
+body {
+  background: #f5f5f5;
+}
+
+.navBar {
+  position: absolute;
+  width: 198px;
+  height: 53px;
+  left: 400px;
+  top: 166px;
+}
+
+.mock-section {
+  position: absolute;
+  width: 936px;
+  height: 587px;
+  left: 889px;
+  top: 292px;
+
+  background: url(./assets/mockup.png);
+}
+
+.tool-section {
+  position: absolute;
+  width: 481px;
+  height: -webkit-fill-available;
+  top: 652px;
+  left: 0px;
+  background: url(./assets/tools.png);
+  background-repeat: no-repeat;
+}
+
+.head-text {
+  position: absolute;
+  width: 209px;
+  height: 37px;
+  left: 400px;
+  top: 449px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+  color: #00adef;
+}
+
+.text {
+  position: absolute;
+  width: 489px;
+  height: 110px;
+  left: 400px;
+  top: 536px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+}
+
+#stay{
+  width: 115px;
+  height: 28px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #4e4e4e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
